@@ -3,13 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        font-family: Cambria;
+      }
+      h1, #Menu, #Links {
+        text-align: center;
+      }
+      #Links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      ul li {
+        list-style-position: inside;
+        text-align: center;
+        padding-right: 50px;
+      }
+    </style>
     <title>#17 - Elementos de texto em HTML</title>
 </head>
 <body>
     <h1>Walisson Fernandes Dias</h1>
     <hr>
-    <h3> Menu </h3>
-<ul>
+    <h3 id="Menu">Menu</h3>
+<ul id="Links">
   <li><a href="estagio.html">Relatório de Estágio</a></li>
   <li><a href="experiencias.html">Experiência</a></li>
   <li><a href="aspiracoes.html">Aspirações</a></li>
